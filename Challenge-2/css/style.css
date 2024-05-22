@@ -1,0 +1,68 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Overpass", sans-serif;
+    font-weight: 400, 700;
+
+}
+
+.card{
+    height: 23rem;
+    border-radius: 20px;
+    background-color: hsl(216, 12%, 8%);
+    color:hsl(0, 0%, 100%);
+}
+
+.card .icon{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%; 
+    padding: 13px 14px;  
+    width: 46px;
+    height: 44px;
+    text-align: center;
+}
+.ratings{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin-top: 20px; 
+    gap: 10px; 
+}
+
+.rating{
+    background-color:   hsl(213, 19%, 18%);
+    padding: 10px 20px; 
+    border-radius: 50%; 
+    text-align: center;
+    color:hsl(217, 12%, 63%);
+   
+}
+
+.rating:hover{
+    background-color:  hsl(25, 97%, 53%);
+    cursor: pointer;
+    color:  hsl(213, 19%, 18%);
+}
+
+.main-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    background-color:  hsl(25, 97%, 53%);
+    width: 100%;
+}
+
+.main-btn:hover{
+    cursor:pointer;
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(213, 19%, 18%);
+}
+
+.ratingBox{
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 45px;
+    color:  hsl(25, 97%, 53%);
+}
